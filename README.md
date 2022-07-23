@@ -18,9 +18,9 @@ Execution:
 
 3) Copy project jar to current folder.
 
-4) To execute Q2-part 1
+4) To calculate Document Frquency
 	hadoop jar <jar-file-name> DF ./DFInput ./DFInput/output
 
-5) To execute Q2-part 2
+5) To TFIDF Score
 	hadoop har <jar-file-name> Score ./TFInput/ ./TFInput/output ./DFInput/output/part-r-00000
 	
